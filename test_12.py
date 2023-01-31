@@ -7,11 +7,6 @@ from selenium import webdriver
 import time
 import math
 
-# answer = math.log(int(time.time()))
-log = "Matgol1998@gmail.com"
-pss = "Ufytif999"
-
-
 @pytest.fixture(scope="function")
 def browser():
     options = webdriver.ChromeOptions()
